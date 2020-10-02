@@ -1,0 +1,21 @@
+.sideRow {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.sideRow:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sideRow > h4 {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.sideRow > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #2e81f4;
+}
